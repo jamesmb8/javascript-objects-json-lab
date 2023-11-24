@@ -7,6 +7,7 @@ digitalClock.appendChild(myNode);
 
 const myDate = new Date();
 console.dir(myDate);
+myNode.innerHTML = myDate.toLocaleTimeString();
 
 
 })();
